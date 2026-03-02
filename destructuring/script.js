@@ -17,3 +17,19 @@ function handleMouseMove({ clientX, clientY }) {
 }
 
 document.documentElement.addEventListener('mousemove', handleMouseMove);
+
+const frutas = ['Banana', 'Uva'];
+const [fruta1, fruta2] = frutas;
+// fruta1 = banana
+// fruta2 = Uva
+
+const useState = [
+  'blue',
+  function (color) {
+    useState[0] = color;
+  },
+];
+
+const [color, setColor] = useState;
+
+setColor('Vermelho');

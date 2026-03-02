@@ -1,11 +1,18 @@
+// Objeto Literal
 const menu = {
-  class: '.principal',
-  ativar() {
-    const menuElement = document.querySelector(this.class);
+  selector: '.principal',
+  active() {
+    const menuElement = document.querySelector(this.selector);
     menuElement.classList.add('active');
   },
 };
 
-console.log(menu.selector);
-menu.ativar();
-menu.hasOwnProperty('class');
+menu.selector; // ".principal";
+menu.active(); // adicionar active ao menu
+menu.hasOwnProperty('class'); // método herdado
+
+['10', '20', '30'].map(Number); // [10, 20, 30];
+'JavaScript'.toUpperCase(); // JAVASCRIPT
+
+const body = document.querySelector('body');
+body.classList.add('js'); // adiciona JS ao Body

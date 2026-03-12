@@ -25,5 +25,5 @@ Bem-vindo ao meu repositório de revisão de **JavaScript**! Este projeto é um 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/ralphdosreis/revisao-javascript
+   git clone https://github.com/ralphdosreis/revisao-javascript.git
 
